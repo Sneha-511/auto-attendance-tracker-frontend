@@ -2,9 +2,9 @@ import axios from 'axios';
 import { PROFILE_KEY } from '../store/constants';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/v1/',
+  baseURL: 'https://auto-attendance-tracker-api.herokuapp.com/v1/',
   // Use http://localhost:5000/v1/ in development
-  // Use https://attendance-tracker-api.herokuapp.com/v1/ in production
+  // Use https://auto-attendance-tracker-api.herokuapp.com/v1/ in production
 });
 
 API.interceptors.request.use((req) => {
