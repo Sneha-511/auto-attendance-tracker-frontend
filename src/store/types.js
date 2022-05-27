@@ -1,0 +1,9 @@
+export const AUTH = 'AUTH';
+export const CHECK_AUTH = 'CHECK_AUTH';
+export const REFRESH_TOKEN = 'REFRESH_TOKEN';
+export const LOGOUT = 'LOGOUT';
+export const ERROR = 'ERROR';
+export const SUCCESS = 'SUCCESS';
+export const WARNING = 'WARNING';
+export const INFO = 'INFO';
+export const INFO_BOTTOM = 'INFO_BOTTOM';
